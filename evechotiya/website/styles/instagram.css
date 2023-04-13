@@ -1,0 +1,110 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    
+}
+body{
+    display: grid;
+    grid-template-columns: 450px auto;
+    background-color: rgb(228, 226, 226);
+}
+.in{
+    width: 200px;
+    height: 200px;
+}
+
+.navber{
+    padding-top: 50px;
+    position: fixed;
+    top: 0%;
+    left: 0;
+    width: 280px;
+    height: 100%;
+    background: white;
+    z-index: 1000;
+    font-family: var(--lato);
+
+
+}
+.logo{
+    width:200px ;
+    padding-right:10% ;
+    display: flex;
+    align-items: center;
+}
+       
+
+.house{
+    padding-left: 15%;
+
+}
+.search{
+    margin-bottom: 5%;
+    margin-top: 8%;
+    margin-left: 15%;
+}
+.Explore {
+    margin-bottom: 5%;
+    margin-top: 8%;
+    margin-left: 15%;
+}
+.Reels{
+    margin-bottom: 5%;
+    margin-top: 8%;
+    margin-left: 15%;
+}
+.Messages{
+    margin-bottom: 5%;
+    margin-top: 8%;
+    margin-left: 15%;
+}
+.Notifications{
+    margin-bottom: 5%;
+    margin-top: 8%;
+    margin-left: 15%;
+}
+.Create{
+    margin-bottom: 5%;
+    margin-top: 8%;
+    margin-left: 15%;
+}
+.pic{
+    margin-bottom: 5%;
+    margin-top: 8%;
+    margin-left: 5%;
+    width: 1%;
+}
+.More{
+    margin-top: 90%;
+    margin-left: 15%;
+}
+img{
+    margin-top: 10px;
+    width: 300px;
+    height: 300px;
+}
+.post{
+    margin: 1em 0;
+    width: 100%;
+    margin-top: 450px;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    grid-template-columns: repeat(3, 300px);
+    grid-gap: 1.5em;
+    justify-content: center;
+    align-content: center;
+    height: 100px;
+
+    
+}
+.pro{
+    width: 50px;
+    height: 50px;
+    margin-bottom: 10px;
+    margin-left: 35px;
+    float: left;
+}
+.pro h4{
+    margin-right: 15px;
+}
+ 
